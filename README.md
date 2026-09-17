@@ -3,6 +3,11 @@
 Ek complete, modular web scraping framework — `core/` folder me saare modules alag-alag, professional hacker-style boot sequence + animated banner ke saath, aur **18 built-in features**.
 
 **v2.0 fixes:** `lxml` dependency hata di gayi (kabhi use hi nahi ho rahi thi, aur Termux pe compile fail karke pura install hi tod deti thi). Banner ab pure ASCII hai — kisi bhi Termux font pe sahi render hoga. Startup pe ek real "hacker tool" boot checklist bhi hai.
+*KALI LINUX* interface 
+<img width="1610" height="670" alt="Image" src="https://github.com/user-attachments/assets/539b4c41-4f9e-444d-af32-cc802d7cd5b4" />
+
+#TERMUX INTERFACE 
+<img width="720" height="1612" alt="Image" src="https://github.com/user-attachments/assets/11d64923-16a6-4373-a73d-18de8f7e5212" />
 
 ```
 webscraper_pro/
@@ -28,6 +33,10 @@ webscraper_pro/
 ```bash
 pkg update && pkg upgrade -y
 pkg install python -y
+pkg install git -y
+git clone https://github.com/Darkboy-creater/Web_Scraper_Pro.git
+cd Web_Scraper_Pro
+ls
 pip install -r requirements.txt
 ```
 
@@ -36,7 +45,7 @@ Sirf 2 lightweight dependencies (`requests`, `beautifulsoup4`) — koi compile-h
 ## 2. Run
 
 ```bash
-python main.py
+python start.py
 ```
 
 Launch hote hi:
